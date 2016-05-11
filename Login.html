@@ -26,11 +26,14 @@
 				<div class="right_center2">
 					<div style="padding: 10px;"></div>
 					<div class="logincontent">
-					    欢迎登录<br><br><br>
-						用户名：<input type="text" name="username"/><br><br>
-						密&nbsp码：<input type="password" name="password"/><br><br><br>
-						<input type="submit" value="登录" style="width:80px;height:30px;margin-right: 30px;" />
-						<input type="submit" value="退出" style="width:80px;height:30px" />
+					    <form action="" method="post" >
+						    欢迎登录<br><br><br>
+							用户名：<input type="text" name="username"/><br><br>
+							密&nbsp码：<input type="password" name="password"/><br><br>
+							<input type="checkbox" value="checkbox_keeppwd" name="">记住密码</input>
+							<input type="checkbox" value="checkbox_autologin" name="">自动登录</input><br><br>
+							<input type="submit" value="登   录" style="width:240px;height:30px;font-size: 15" />	    	
+					    </form>
 					</div>
 				</div>
 				<div class="right_center3"></div>
@@ -41,7 +44,8 @@
 
 		</div>
 	</div>
-	<div id="footer">
+	<div id="footer" style="text-align: center;">
+	    Copyright © Goertek.com, All Rights Reserved
 	</div>
 </body>
 </html>

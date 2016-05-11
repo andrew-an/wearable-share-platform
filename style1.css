@@ -11,20 +11,23 @@ body{
 	text-align: center;
 	font-size: 30px;
 }
+#head h1{
+	color: orange;
+}
 #wrapper{
 	/*background-color: PowderBlue;*/
 	width: 98.8%;
 	position: absolute;
 	top:88px;
-	bottom: 30px;
-	filter: alpha(opacity=50);
-	opacity: 0.50;
+	bottom: 20px;
+	/*filter: alpha(opacity=50);
+	opacity: 0.50;*/
 	/*background-color: orange;*/
 }
 #footer{
 	width:98.8%;
-	height:30px;
-	background-color: gray;
+	height:20px;
+	background-color: #DCDCDC;
 	position: fixed;
     bottom:0;
 }
@@ -93,7 +96,8 @@ body{
 	float: left;
 	text-align: center;
 	border-radius: 10px;
-	background-color: #00BFFF ;
+	background-color: #1E90FF ;
+
 }
 .right_center3{
 	height: 100%;
